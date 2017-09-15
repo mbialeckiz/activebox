@@ -1,0 +1,462 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,400i|Open+Sans:400,700|Raleway:400,700);
+/* --- VARIABLES ---*/
+/* MEDIA QUERIES MIXINS */
+/* --- GENERAL ---*/
+/* line 51, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 54, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+body {
+  font-family: "Raleway", sans-serif;
+  /* padding-top: 100px; */ }
+
+/* line 59, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 100; }
+
+/* line 66, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff; }
+  @media screen and (max-width: 767px) {
+    /* line 66, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    h1 {
+      font-size: 54px; } }
+
+/* line 77, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+h2 {
+  font-weight: 100;
+  line-height: normal;
+  color: #fff;
+  font-size: 28px; }
+
+/* line 84, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+h3 {
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: normal;
+  color: #fff; }
+
+/* line 91, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000; }
+
+/* --- HEADER ---*/
+/* line 100, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+header nav {
+  /* background-color: rgba(49, 52, 84, 1); */ }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 101, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    header nav .navbar-right {
+      float: none !important;
+      margin-right: 0; } }
+  /* line 109, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  header nav .container {
+    border-bottom: 1px solid #6c7279; }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      /* line 112, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      header nav .container .navbar-header {
+        float: none; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      /* line 117, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      header nav .container .navbar-header .navbar-brand img {
+        margin: 0 auto; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      /* line 116, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      header nav .container .navbar-header .navbar-brand {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%; } }
+    /* line 130, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    header nav .container .navbar-header .navbar-toggle .icon-bar {
+      background-color: #fff; }
+    /* line 136, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    header nav .container .navbar-collapse {
+      overflow: hidden; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        /* line 138, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+        header nav .container .navbar-collapse .navbar-nav {
+          float: none;
+          text-align: center; } }
+      /* line 143, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      header nav .container .navbar-collapse .navbar-nav li {
+        display: block;
+        margin: 0 auto; }
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          /* line 143, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+          header nav .container .navbar-collapse .navbar-nav li {
+            float: none;
+            display: inline-block; } }
+        /* line 150, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+        header nav .container .navbar-collapse .navbar-nav li a {
+          color: #fff;
+          font-size: 14px;
+          text-transform: uppercase;
+          padding: 20px;
+          background: none;
+          font-weight: 700;
+          text-align: center; }
+          /* line 158, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+          header nav .container .navbar-collapse .navbar-nav li a:hover {
+            background-color: #e84545;
+            filter: brightness(115%);
+            -webkit-filter: brightness(115%); }
+    /* line 168, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    header nav .container .in {
+      background-color: #313454;
+      border: none; }
+
+/* --- JUMBOTRON ---*/
+/* line 178, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.jumbotron {
+  height: 750px;
+  background: url("../img/hero.jpg") 0/cover no-repeat; }
+  /* line 181, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .jumbotron .container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 830px;
+    margin-top: 100px; }
+    @media screen and (max-width: 767px) {
+      /* line 181, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .jumbotron .container {
+        margin-top: 50px; } }
+    /* line 189, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .jumbotron .container h1, .jumbotron .container h3 {
+      padding: 20px 0;
+      margin-top: 20px;
+      color: #fff; }
+    /* line 194, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .jumbotron .container .findout {
+      width: 200px;
+      height: 45px;
+      background-color: #e84545;
+      margin: 50px auto;
+      font-size: 15px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform 0.5s; }
+      /* line 203, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .jumbotron .container .findout:hover {
+        background-color: #e84545;
+        transform: scale(1.15);
+        filter: brightness(115%);
+        -webkit-filter: brightness(115%); }
+
+/* --- FEATURES ---*/
+/* line 215, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.features {
+  padding: 30px; }
+  /* line 218, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .features .feat {
+    padding: 30px; }
+    /* line 222, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .features .feat i.fa {
+      color: #e84545;
+      font-size: 65px;
+      line-height: 60px;
+      text-align: center;
+      margin-bottom: 10px;
+      transition: transform 0.5s; }
+      /* line 229, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .features .feat i.fa:hover {
+        transform: scale(1.2); }
+    /* line 235, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .features .feat p {
+      color: #6c7279; }
+
+/* --- WORKS ---*/
+/* line 242, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.works {
+  margin-top: 50px; }
+  /* line 245, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .works [class*="col-"] {
+    padding: 0;
+    margin: 0; }
+  /* line 249, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .works .photo {
+    position: relative;
+    overflow: hidden; }
+    /* line 252, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .works .photo:hover .layer {
+      display: block; }
+    /* line 255, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .works .photo:hover img {
+      transform: scale(1.1) rotate(-3deg); }
+    /* line 259, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .works .photo .layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 350px;
+      width: 100%;
+      background-color: rgba(232, 69, 69, 0.8);
+      display: none;
+      z-index: 66; }
+      @media screen and (max-width: 767px) {
+        /* line 259, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+        .works .photo .layer {
+          display: block;
+          height: 50px; } }
+      /* line 273, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .works .photo .layer h4 {
+        margin: 0 auto;
+        margin-top: 150px;
+        color: #fff;
+        text-align: center;
+        font-size: 16px; }
+        @media screen and (max-width: 767px) {
+          /* line 273, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+          .works .photo .layer h4 {
+            line-height: 16px;
+            margin-top: 17px;
+            display: inline-block;
+            margin-left: 15%; } }
+      /* line 286, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .works .photo .layer p {
+        text-align: center;
+        font-size: 16px; }
+        @media screen and (max-width: 767px) {
+          /* line 286, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+          .works .photo .layer p {
+            line-height: 16px;
+            margin-top: 17px;
+            display: inline-block;
+            margin-left: 15%; } }
+    /* line 298, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .works .photo img {
+      height: 350px;
+      width: 100%;
+      object-fit: cover;
+      transition: 0.3s; }
+
+/* --- TEAM ---*/
+/* line 310, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.team {
+  margin: 70px 0; }
+  /* line 313, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .team .employee {
+    margin: 20px auto; }
+    @media screen and (max-width: 767px) {
+      /* line 313, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .team .employee {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 20px 40px 20px; } }
+    /* line 321, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .team .employee .pic {
+      overflow: hidden; }
+      /* line 323, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .team .employee .pic img {
+        width: 100%;
+        transition: transform 0.5s; }
+        @media screen and (max-width: 767px) {
+          /* line 323, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+          .team .employee .pic img {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block; } }
+        /* line 331, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+        .team .employee .pic img:hover {
+          transform: scale(1.1);
+          filter: brightness(115%);
+          -webkit-filter: brightness(115%); }
+    /* line 338, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .team .employee h3 {
+      color: #000; }
+    /* line 342, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .team .employee h4 {
+      font-size: 16px;
+      color: #e84545;
+      font-weight: 100;
+      text-transform: uppercase; }
+    /* line 348, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .team .employee p {
+      color: #6c7279; }
+    @media screen and (max-width: 767px) {
+      /* line 352, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .team .employee .social {
+        margin-top: 30px; } }
+    /* line 356, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .team .employee .social .fa {
+      color: #c6cacc;
+      font-size: 26px;
+      line-height: 50px;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      border: 1px solid #c6cacc;
+      margin-right: 10px;
+      transition: transform 0.5s; }
+      /* line 366, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .team .employee .social .fa:hover {
+        transform: scale(1.2); }
+        /* line 368, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+        .team .employee .social .fa:hover.fa-facebook {
+          color: #3B5998;
+          border: 1px solid #3B5998; }
+        /* line 372, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+        .team .employee .social .fa:hover.fa-twitter {
+          color: #4099FF;
+          border: 1px solid #4099FF; }
+        /* line 376, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+        .team .employee .social .fa:hover.fa-linkedin-square {
+          color: #0077b5;
+          border: 1px solid #0077b5; }
+
+/* --- TESTIMONIALS ---*/
+/* line 390, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.testimonials [class*="col-"] {
+  padding: 0;
+  margin: 0; }
+
+/* line 395, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.testimonials .item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; }
+
+/* line 400, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.testimonials .item .description {
+  height: 500px;
+  background-color: #53354a;
+  padding-top: 100px;
+  padding-left: 10%; }
+  @media screen and (max-width: 767px) {
+    /* line 400, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .testimonials .item .description {
+      padding-top: 50px;
+      padding-left: 20px;
+      padding-right: 20px; } }
+  /* line 410, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .testimonials .item .description blockquote {
+    font-family: "Cardo", serif;
+    font-size: 32px;
+    color: #fff;
+    max-width: 500px;
+    padding-left: 20px;
+    border-left: none; }
+    @media screen and (max-width: 767px) {
+      /* line 410, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      .testimonials .item .description blockquote {
+        max-width: none;
+        margin: 0 20px 20px; } }
+  /* line 422, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .testimonials .item .description h4 {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 100; }
+
+/* line 431, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.testimonials .carousel-indicators {
+  margin-left: 0;
+  width: 200px;
+  left: calc(75% - 100px);
+  padding-bottom: 20px; }
+  @media screen and (max-width: 991px) {
+    /* line 431, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .testimonials .carousel-indicators {
+      left: calc(50% - 100px); } }
+
+/* --- DOWNLOAD ---*/
+/* line 444, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+.download {
+  padding: 50px 0;
+  text-align: center; }
+  /* line 447, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .download h2 {
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 50px 0 20px 0; }
+  /* line 454, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .download h4 {
+    text-align: center;
+    text-transform: uppercase; }
+  /* line 459, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  .download button {
+    width: 200px;
+    height: 45px;
+    background-color: #e84545;
+    margin: 50px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.5s; }
+    /* line 468, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    .download button:hover {
+      background-color: #e84545;
+      transform: scale(1.15);
+      filter: brightness(115%);
+      -webkit-filter: brightness(115%); }
+
+/* --- FOOTER ---*/
+/* line 479, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+footer {
+  background-color: #3a3e64; }
+  /* line 481, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  footer p {
+    color: #c6cacc; }
+  /* line 485, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  footer [class*="col-xs-"] {
+    padding: 50px 0; }
+    @media screen and (max-width: 767px) {
+      /* line 485, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      footer [class*="col-xs-"] {
+        padding: 20px; } }
+    /* line 491, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    footer [class*="col-xs-"] h4 {
+      color: #fff; }
+  /* line 497, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  footer .sm-footer {
+    margin: 0 auto; }
+    /* line 500, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    footer .sm-footer i.fa {
+      color: #fff;
+      font-size: 20px;
+      line-height: 40px;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      border: 2px #fff solid;
+      margin-right: 10px;
+      transition: transform 1s; }
+      /* line 510, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+      footer .sm-footer i.fa:hover {
+        transform: scale(1.2); }
+  /* line 517, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+  footer .copy {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    background-color: #313454; }
+    /* line 525, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    footer .copy h4 {
+      color: #c6cacc; }
+    /* line 528, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    footer .copy i {
+      font-size: 14px;
+      margin-left: 2px;
+      margin-right: 2px;
+      color: #e84545;
+      border: none; }
+    /* line 535, /Users/dianaimarcin/Desktop/project3/sass/style.scss */
+    footer .copy span {
+      color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
